@@ -1,0 +1,70 @@
+body {
+    background-color: #F3EAE3;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    box-sizing: border-box;
+}
+#floatright {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+   
+}
+.right {
+   background-color: #ffffff;
+   padding: 5px;
+   width: 250px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   text-align: left;
+   padding-left: 20px;
+
+}
+.right h4 {
+    font-family: monospace;
+    letter-spacing: 10px;
+}
+.num {
+    color: #3D8369;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ span{
+    font-size: 14px;
+    color: #797984;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+h4, p{
+    color:#797984;
+    font-size: 14px;
+}
+button {
+    background-color: #37735D;
+    border: none;
+    color: white;
+    padding: 14px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    border-radius: 7px;
+}
+img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;   
+}
+@media only screen and (max-width: 100px) {
+    #floatright{
+        width: 1440px;
+    }
+}
+@media only screen and (device-width: 375px) {
+    #floatright {
+        width: 375PX;
+    }
+  }
